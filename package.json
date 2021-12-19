@@ -1,0 +1,26 @@
+{
+  "name": "MapHacksProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel main.html",
+    "build": "parcel build main.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misato100/GreenerWorld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misato100/GreenerWorld/issues"
+  },
+  "homepage": "https://github.com/misato100/GreenerWorld#readme"
+}
