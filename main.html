@@ -130,8 +130,6 @@
             })
             .then((response) => {
               directionsRenderer.setDirections(response);
-              //alert("Distance " + response.routes[0].legs[0].distance.text);
-              //document.getElementById("result").innerHTML = response.routes[0].legs[0].distance.text + " kcals";
               var radioWeight = document.querySelectorAll('input[name="metric"]');
               var radioHeight = document.querySelectorAll('input[name="size"]');
               var heightInput = parseFloat(document.getElementById("height").value);
@@ -183,9 +181,7 @@
           );
           infoWindow.open(map);
         }
-
-
-        
+    
       </script>
   </head>
   <body>
